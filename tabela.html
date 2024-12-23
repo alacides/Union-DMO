@@ -1,0 +1,1942 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Atributos</title>
+    <style>
+      body {
+  width: 70%;
+  margin: auto;
+}
+
+        table {
+            width: 100%;
+            
+            
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 8px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+  <thead>
+      <tr>
+          <th>AT</th>
+          <th>DE</th>
+          <th>DS</th>
+          <th>CT</th>
+          <th>EV</th>
+          <th>BL</th>
+          <th>HP</th>
+          <th>HT</th>
+          <th>EXP</th>
+          <th>Desconhecido</th>
+          <th>Vacina</th>
+          <th>Virus</th>
+          <th>Dados</th>
+          <th>Fogo</th>
+          <th>Trevas</th>
+          <th>Gelo</th>
+          <th>Vento</th>
+          <th>Madeira</th>
+          <th>Agua</th>
+          <th>Aço</th>
+          <th>Terra</th>
+          <th>Luz</th>
+          <th>Trovão</th>
+          <th>Skill DMG</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr id="atributos-row">
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+      </tr>
+  </tbody>
+</table>
+
+<table id="tabela" border="1" class="dataframe" style="text-align: center;">
+  <thead>
+    <tr style="text-align: center;">
+      <th>Possui</th>
+      <th>Digi</th>
+      <th colspan="2">Todas Evos</th>
+
+      <th colspan="2">Nivel Total</th>
+
+      <th colspan="2">Transcendencia</th>
+
+      <th colspan="2">Nivel Total</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Status</td>
+      <td>Valor</td>
+      <td>Status</td>
+      <td>Valor</td>
+      <td>Status</td>
+      <td>Valor</td>
+      <td>Status</td>
+      <td>Valor</td>
+    </tr>
+    <tr>
+      <td>Agumon(Classic)</td>
+      <td>AT</td>
+      <td>50</td>
+      <td>DE</td>
+      <td>150</td>
+      <td>AT</td>
+      <td>70</td>
+      <td>Luz</td>
+      <td> 2%</td>
+    </tr>
+    <tr>
+      <td>Agumon(BK)</td>
+      <td>DS</td>
+      <td>80</td>
+      <td>DS</td>
+      <td>120</td>
+      <td>AT</td>
+      <td>50</td>
+      <td>Trovão</td>
+      <td>1%</td>
+    </tr>
+    <tr>
+      <td>Agumon(BK) Blitz</td>
+      <td>DE</td>
+      <td>30</td>
+      <td>CT</td>
+      <td>30</td>
+      <td>CT</td>
+      <td>50</td>
+      <td>Virus</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Agumon(BK) Millenium</td>
+      <td>DE</td>
+      <td>30</td>
+      <td>DE</td>
+      <td>50</td>
+      <td>AT</td>
+      <td>70</td>
+      <td>Fogo</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>ToyAgumon SS+</td>
+      <td>DE</td>
+      <td>30</td>
+      <td>DE</td>
+      <td>50</td>
+      <td>CT</td>
+      <td>20</td>
+      <td>Fogo</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>ToyAgumon</td>
+      <td>DE</td>
+      <td>30</td>
+      <td>DE</td>
+      <td>50</td>
+      <td>CT</td>
+      <td>20</td>
+      <td>Fogo</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Gabumon</td>
+      <td>HT</td>
+      <td>50</td>
+      <td>BL</td>
+      <td>200</td>
+      <td>CT</td>
+      <td>50</td>
+      <td>Vacina</td>
+      <td> 2%</td>
+    </tr>
+    <tr>
+      <td>Gabumon(CresGarurumon)</td>
+      <td>BL</td>
+      <td>20</td>
+      <td>BL</td>
+      <td>30</td>
+      <td>HT</td>
+      <td>50</td>
+      <td>Trevas</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Gabumon(BK)</td>
+      <td>DE</td>
+      <td>30</td>
+      <td>DE</td>
+      <td>50</td>
+      <td>CT</td>
+      <td>50</td>
+      <td>Virus</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Salamon</td>
+      <td>HT</td>
+      <td>30</td>
+      <td>BL</td>
+      <td>50</td>
+      <td>HT</td>
+      <td>50</td>
+      <td>Desconhecido</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Salamon (Lilithmon)</td>
+      <td>DE</td>
+      <td>30</td>
+      <td>DE</td>
+      <td>50</td>
+      <td>AT</td>
+      <td>50</td>
+      <td>Virus</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Salamon(BK Gatomon)</td>
+      <td>DE</td>
+      <td>30</td>
+      <td>CT</td>
+      <td>30</td>
+      <td>AT</td>
+      <td>50</td>
+      <td>Virus</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Salamon (Silphymon)</td>
+      <td>DS</td>
+      <td>80</td>
+      <td>DS</td>
+      <td>120</td>
+      <td>CT</td>
+      <td>30</td>
+      <td>Gelo</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Patamon</td>
+      <td>DE</td>
+      <td>30</td>
+      <td>DE</td>
+      <td>50</td>
+      <td>CT</td>
+      <td>30</td>
+      <td>Vento</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Patamon(Shakkoumon)</td>
+      <td>EV</td>
+      <td>30</td>
+      <td>EV</td>
+      <td>70</td>
+      <td>HT</td>
+      <td>30</td>
+      <td>Vento</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Palmon(Original)</td>
+      <td>BL</td>
+      <td>20</td>
+      <td>BL</td>
+      <td>30</td>
+      <td>HT</td>
+      <td>50</td>
+      <td>Madeira</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Palmon(Woodmon)</td>
+      <td>EV</td>
+      <td>30</td>
+      <td>EV</td>
+      <td>70</td>
+      <td>HT</td>
+      <td>30</td>
+      <td>Madeira</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Palmon(Togemon)</td>
+      <td>BL</td>
+      <td>20</td>
+      <td>BL</td>
+      <td>30</td>
+      <td>HT</td>
+      <td>30</td>
+      <td>Agua</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Palmon (Apocaly)</td>
+      <td>DS</td>
+      <td>50</td>
+      <td>DS</td>
+      <td>80</td>
+      <td>AT</td>
+      <td>30</td>
+      <td>Madeira</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Piyomon</td>
+      <td>BL</td>
+      <td>20</td>
+      <td>BL</td>
+      <td>30</td>
+      <td>HT</td>
+      <td>30</td>
+      <td>Fogo</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Gomamon</td>
+      <td>DS</td>
+      <td>120</td>
+      <td>DS</td>
+      <td>150</td>
+      <td>AT</td>
+      <td>50</td>
+      <td>Gelo</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Gomamon (Jijimon)</td>
+      <td>DE</td>
+      <td>30</td>
+      <td>DE</td>
+      <td>50</td>
+      <td>CT</td>
+      <td>20</td>
+      <td>Agua</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Tentomon</td>
+      <td>EXP</td>
+      <td>20</td>
+      <td>EXP</td>
+      <td>20</td>
+      <td>EXP</td>
+      <td>30</td>
+      <td>Trevas</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>V-mon Veedramon</td>
+      <td>EV</td>
+      <td>30</td>
+      <td>DE</td>
+      <td>100</td>
+      <td>Vacina</td>
+      <td> 1%</td>
+      <td>Fogo</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>V-mon Imperial Jogress</td>
+      <td>EV</td>
+      <td>30</td>
+      <td>DE</td>
+      <td>100</td>
+      <td>AT</td>
+      <td>70</td>
+      <td>Vacina</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>V-mon ExVmon</td>
+      <td>DE</td>
+      <td>30</td>
+      <td>CT</td>
+      <td>30</td>
+      <td>AT</td>
+      <td>70</td>
+      <td>Madeira</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Wormmon</td>
+      <td>DE</td>
+      <td>30</td>
+      <td>DE</td>
+      <td>50</td>
+      <td>CT</td>
+      <td>50</td>
+      <td>Aço</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Wormmon Imperial Jogress</td>
+      <td>DE</td>
+      <td>30</td>
+      <td>CT</td>
+      <td>30</td>
+      <td>AT</td>
+      <td>70</td>
+      <td>Luz</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Hawkmon</td>
+      <td>DS</td>
+      <td>120</td>
+      <td>DS</td>
+      <td>150</td>
+      <td>DE</td>
+      <td>100</td>
+      <td>Vento</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Hawkmon(Silphymon)</td>
+      <td>EV</td>
+      <td>30</td>
+      <td>EV</td>
+      <td>70</td>
+      <td>HT</td>
+      <td>30</td>
+      <td>Vento</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Armadimon</td>
+      <td>HP</td>
+      <td>50</td>
+      <td>HP</td>
+      <td>100</td>
+      <td>HP</td>
+      <td>200</td>
+      <td>Agua</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Aramdimon(Shakkoumon)</td>
+      <td>EV</td>
+      <td>30</td>
+      <td>DS</td>
+      <td>150</td>
+      <td>AT</td>
+      <td>50</td>
+      <td>Terra</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Guilmon</td>
+      <td>CT</td>
+      <td>50</td>
+      <td>HT</td>
+      <td>50</td>
+      <td>Virus</td>
+      <td> 2%</td>
+      <td>Luz</td>
+      <td> 2%</td>
+    </tr>
+    <tr>
+      <td>Guilmon(ChaosGallantmon)</td>
+      <td>EXP</td>
+      <td>20</td>
+      <td>EXP</td>
+      <td>20</td>
+      <td>EXP</td>
+      <td>30</td>
+      <td>Fogo</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Renamon</td>
+      <td>Dados</td>
+      <td> 2%</td>
+      <td>EV</td>
+      <td>150</td>
+      <td>AT</td>
+      <td>100</td>
+      <td>Trevas</td>
+      <td> 2%</td>
+    </tr>
+    <tr>
+      <td>Shoutmon</td>
+      <td>DE</td>
+      <td>150</td>
+      <td>CT</td>
+      <td>30</td>
+      <td>Dados</td>
+      <td> 1%</td>
+      <td>Aço</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>MailBirdramon</td>
+      <td>HT</td>
+      <td>50</td>
+      <td>EV</td>
+      <td>150</td>
+      <td>Dados</td>
+      <td> 1%</td>
+      <td>Aço</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Greymon(C)</td>
+      <td>AT</td>
+      <td>50</td>
+      <td>DS</td>
+      <td>500</td>
+      <td>Dados</td>
+      <td> 1%</td>
+      <td>Aço</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Dorumon (Dorugamon)</td>
+      <td>EXP</td>
+      <td>20</td>
+      <td>EXP</td>
+      <td>30</td>
+      <td>EXP</td>
+      <td>50</td>
+      <td>Aço</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Dorumon (DexDorugamon)</td>
+      <td>BL</td>
+      <td>20</td>
+      <td>BL</td>
+      <td>30</td>
+      <td>HT</td>
+      <td>50</td>
+      <td>Virus</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Dorumon (Raptordramon)</td>
+      <td>EV</td>
+      <td>30</td>
+      <td>EV</td>
+      <td>100</td>
+      <td>Vacina</td>
+      <td> 1%</td>
+      <td>Luz</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>PicoDevimon</td>
+      <td>BL</td>
+      <td>20</td>
+      <td>BL</td>
+      <td>30</td>
+      <td>HT</td>
+      <td>30</td>
+      <td>Aço</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>PicoDevimon (Soulmon)</td>
+      <td>HP</td>
+      <td>50</td>
+      <td>HP</td>
+      <td>100</td>
+      <td>HP</td>
+      <td>200</td>
+      <td>Trovão</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>PicoDevimon(Myotismon)</td>
+      <td>DE</td>
+      <td>30</td>
+      <td>EV</td>
+      <td>70</td>
+      <td>CT</td>
+      <td>30</td>
+      <td>Terra</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>PicoDevimon(Apocaly)</td>
+      <td>EV</td>
+      <td>30</td>
+      <td>BL</td>
+      <td>50</td>
+      <td>AT</td>
+      <td>50</td>
+      <td>Trovão</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Betamon</td>
+      <td>EV</td>
+      <td>30</td>
+      <td>DS</td>
+      <td>80</td>
+      <td>HT</td>
+      <td>30</td>
+      <td>Agua</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Betamon(Apocaly)</td>
+      <td>EV</td>
+      <td>30</td>
+      <td>EV</td>
+      <td>70</td>
+      <td>HT</td>
+      <td>30</td>
+      <td>Agua</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Hagurumon (Gardromon)</td>
+      <td>BL</td>
+      <td>20</td>
+      <td>BL</td>
+      <td>30</td>
+      <td>HT</td>
+      <td>50</td>
+      <td>Vacina</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Hagurumon(Mechanorimon)</td>
+      <td>DE</td>
+      <td>30</td>
+      <td>DE</td>
+      <td>50</td>
+      <td>AT</td>
+      <td>50</td>
+      <td>Aço</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Hagurumon(Apocaly)</td>
+      <td>BL</td>
+      <td>20</td>
+      <td>BL</td>
+      <td>30</td>
+      <td>HT</td>
+      <td>30</td>
+      <td>Aço</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Qinglongmon</td>
+      <td>DS</td>
+      <td>50</td>
+      <td>DS</td>
+      <td>80</td>
+      <td>AT</td>
+      <td>30</td>
+      <td>Terra</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Xuanwumon</td>
+      <td>DS</td>
+      <td>50</td>
+      <td>DS</td>
+      <td>80</td>
+      <td>AT</td>
+      <td>30</td>
+      <td>Agua</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Zhuqiaomon</td>
+      <td>DE</td>
+      <td>30</td>
+      <td>DE</td>
+      <td>50</td>
+      <td>CT</td>
+      <td>20</td>
+      <td>Fogo</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Baihumon</td>
+      <td>EV</td>
+      <td>30</td>
+      <td>EV</td>
+      <td>70</td>
+      <td>HT</td>
+      <td>30</td>
+      <td>Dados</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Lucemon</td>
+      <td>DS</td>
+      <td>120</td>
+      <td>DS</td>
+      <td>150</td>
+      <td>Trevas</td>
+      <td> 1%</td>
+      <td>Virus</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Impmon</td>
+      <td>DE</td>
+      <td>30</td>
+      <td>CT</td>
+      <td>30</td>
+      <td>CT</td>
+      <td>50</td>
+      <td>Gelo</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Impmon Baalmon</td>
+      <td>DS</td>
+      <td>120</td>
+      <td>DS</td>
+      <td>150</td>
+      <td>Gelo</td>
+      <td> 1%</td>
+      <td>Aço</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Elecmon</td>
+      <td>Bl</td>
+      <td>20</td>
+      <td>Bl</td>
+      <td>30</td>
+      <td>HT</td>
+      <td>50</td>
+      <td>Fogo</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Elecmon(Duftmon)</td>
+      <td>DS</td>
+      <td>80</td>
+      <td>DS</td>
+      <td>120</td>
+      <td>AT</td>
+      <td>50</td>
+      <td>Aço</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Drimogemon</td>
+      <td>DS</td>
+      <td>80</td>
+      <td>DS</td>
+      <td>120</td>
+      <td>AT</td>
+      <td>30</td>
+      <td>Aço</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Gotsumon</td>
+      <td>HP</td>
+      <td>50</td>
+      <td>HP</td>
+      <td>100</td>
+      <td>HP</td>
+      <td>200</td>
+      <td>Terra</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Deputymon</td>
+      <td>DS</td>
+      <td>50</td>
+      <td>DS</td>
+      <td>80</td>
+      <td>EV</td>
+      <td>70</td>
+      <td>Vento</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Starmon</td>
+      <td>DS</td>
+      <td>50</td>
+      <td>DS</td>
+      <td>80</td>
+      <td>EV</td>
+      <td>70</td>
+      <td>Vento</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Doggymon</td>
+      <td>HP</td>
+      <td>50</td>
+      <td>HP</td>
+      <td>100</td>
+      <td>HP</td>
+      <td>200</td>
+      <td>Trovão</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>DemiMeramon</td>
+      <td>DS</td>
+      <td>80</td>
+      <td>DS</td>
+      <td>120</td>
+      <td>AT</td>
+      <td>50</td>
+      <td>Fogo</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Kiwimon</td>
+      <td>DS</td>
+      <td>50</td>
+      <td>DS</td>
+      <td>80</td>
+      <td>EV</td>
+      <td>70</td>
+      <td>Vento</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Dobermon</td>
+      <td>DS</td>
+      <td>50</td>
+      <td>DS</td>
+      <td>80</td>
+      <td>CT</td>
+      <td>20</td>
+      <td>EV</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>Terriermon</td>
+      <td>DE</td>
+      <td>30</td>
+      <td>DE</td>
+      <td>50</td>
+      <td>AT</td>
+      <td>50</td>
+      <td>Vento</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Gizumon</td>
+      <td>DS</td>
+      <td>50</td>
+      <td>DS</td>
+      <td>80</td>
+      <td>AT</td>
+      <td>30</td>
+      <td>Desconhecido</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Pawchessmon White</td>
+      <td>EV</td>
+      <td>30</td>
+      <td>EV</td>
+      <td>70</td>
+      <td>HT</td>
+      <td>30</td>
+      <td>Aço</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Tanemon</td>
+      <td>DS</td>
+      <td>50</td>
+      <td>DS</td>
+      <td>80</td>
+      <td>AT</td>
+      <td>30</td>
+      <td>Madeira</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Pawchessmon Black</td>
+      <td>BL</td>
+      <td>20</td>
+      <td>BL</td>
+      <td>30</td>
+      <td>HT</td>
+      <td>30</td>
+      <td>Aço</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Kotemon(Gladimon)</td>
+      <td>HT</td>
+      <td>30</td>
+      <td>BL</td>
+      <td>50</td>
+      <td>AT</td>
+      <td>50</td>
+      <td>Desconhecido</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Candlemon</td>
+      <td>De</td>
+      <td>30</td>
+      <td>DE</td>
+      <td>50</td>
+      <td>CT</td>
+      <td>50</td>
+      <td>Vento</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Bearmon</td>
+      <td>DE</td>
+      <td>30</td>
+      <td>CT</td>
+      <td>30</td>
+      <td>AT</td>
+      <td>70</td>
+      <td>Terra</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Dracomon Blue</td>
+      <td>HP</td>
+      <td>500</td>
+      <td>HP</td>
+      <td>200</td>
+      <td>Fogo</td>
+      <td> 1%</td>
+      <td>Luz</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Dracomon Green</td>
+      <td>HT</td>
+      <td>30</td>
+      <td>BL</td>
+      <td>50</td>
+      <td>AT</td>
+      <td>50</td>
+      <td>Dados</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Monodramon</td>
+      <td>DS</td>
+      <td>80</td>
+      <td>DS</td>
+      <td>120</td>
+      <td>AT</td>
+      <td>50</td>
+      <td>Vento</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Lopmon</td>
+      <td>EXP</td>
+      <td>20</td>
+      <td>EXP</td>
+      <td>20</td>
+      <td>EXP</td>
+      <td>30</td>
+      <td>Gelo</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>FanBeemon</td>
+      <td>DS</td>
+      <td>30</td>
+      <td>CT</td>
+      <td>30</td>
+      <td>CT</td>
+      <td>50</td>
+      <td>Vento</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Keramon</td>
+      <td>HP</td>
+      <td>50</td>
+      <td>HP</td>
+      <td>100</td>
+      <td>HP</td>
+      <td>200</td>
+      <td>Desconhecido</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Kamemon</td>
+      <td>HP</td>
+      <td>50</td>
+      <td>HP</td>
+      <td>100</td>
+      <td>HP</td>
+      <td>200</td>
+      <td>Agua</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Goblimon</td>
+      <td>EXP</td>
+      <td>20</td>
+      <td>EXP</td>
+      <td>30</td>
+      <td>EXP</td>
+      <td>50</td>
+      <td>Virus</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Sharmamon</td>
+      <td>EXP</td>
+      <td>20</td>
+      <td>EXP</td>
+      <td>20</td>
+      <td>EXP</td>
+      <td>30</td>
+      <td>Gelo</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Dokunemon</td>
+      <td>DE</td>
+      <td>30</td>
+      <td>DE</td>
+      <td>50</td>
+      <td>CT</td>
+      <td>20</td>
+      <td>Terra</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Commandramon</td>
+      <td>DS</td>
+      <td>80</td>
+      <td>DS</td>
+      <td>120</td>
+      <td>AT</td>
+      <td>50</td>
+      <td>Agua</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Kudamon</td>
+      <td>BL</td>
+      <td>20</td>
+      <td>BL</td>
+      <td>30</td>
+      <td>HT</td>
+      <td>30</td>
+      <td>Gelo</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Ryuudamon</td>
+      <td>HT</td>
+      <td>30</td>
+      <td>BL</td>
+      <td>50</td>
+      <td>HT</td>
+      <td>50</td>
+      <td>Vacina</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Kotemon(Musyamon)</td>
+      <td>EV</td>
+      <td>30</td>
+      <td>AT</td>
+      <td>50</td>
+      <td>CT</td>
+      <td>20</td>
+      <td>Fogo</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Mushroomon</td>
+      <td>EV</td>
+      <td>30</td>
+      <td>EV</td>
+      <td>70</td>
+      <td>HT</td>
+      <td>30</td>
+      <td>Trovão</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Dracmon</td>
+      <td>DS</td>
+      <td>120</td>
+      <td>DS</td>
+      <td>150</td>
+      <td>AT</td>
+      <td>70</td>
+      <td>Trovão</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Arkadimon</td>
+      <td>DS</td>
+      <td>50</td>
+      <td>DS</td>
+      <td>80</td>
+      <td>AT</td>
+      <td>30</td>
+      <td>Terra</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Gazimon</td>
+      <td>DS</td>
+      <td>50</td>
+      <td>DS</td>
+      <td>80</td>
+      <td>AT</td>
+      <td>30</td>
+      <td>Terra</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Tsukaimon(Daemon)</td>
+      <td>DS</td>
+      <td>80</td>
+      <td>DS</td>
+      <td>120</td>
+      <td>AT</td>
+      <td>50</td>
+      <td>Fogo</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Swimmon</td>
+      <td>DE</td>
+      <td>30</td>
+      <td>DE</td>
+      <td>50</td>
+      <td>CT</td>
+      <td>20</td>
+      <td>Agua</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Balistamon</td>
+      <td>DE</td>
+      <td>30</td>
+      <td>DE</td>
+      <td>50</td>
+      <td>EV</td>
+      <td>100</td>
+      <td>Desconhecido</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Psychemon</td>
+      <td>DS</td>
+      <td>80</td>
+      <td>DS</td>
+      <td>120</td>
+      <td>AT</td>
+      <td>50</td>
+      <td>Virus</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Dorulumon</td>
+      <td>EV</td>
+      <td>30</td>
+      <td>EV</td>
+      <td>70</td>
+      <td>HT</td>
+      <td>30</td>
+      <td>Desconhecido</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Syakomon</td>
+      <td>HP</td>
+      <td>50</td>
+      <td>HP</td>
+      <td>100</td>
+      <td>HP</td>
+      <td>200</td>
+      <td>Agua</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Tsukaimon(Murmukusmon)</td>
+      <td>DS</td>
+      <td>50</td>
+      <td>DS</td>
+      <td>80</td>
+      <td>AT</td>
+      <td>30</td>
+      <td>Madeira</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Otamamon</td>
+      <td>DS</td>
+      <td>50</td>
+      <td>DS</td>
+      <td>80</td>
+      <td>AT</td>
+      <td>30</td>
+      <td>Agua</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Tsukaimon(Barbamon)</td>
+      <td>EV</td>
+      <td>30</td>
+      <td>EV</td>
+      <td>70</td>
+      <td>HT</td>
+      <td>30</td>
+      <td>Virus</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Gazimon(Millenniusmon)</td>
+      <td>BL</td>
+      <td>20</td>
+      <td>BL</td>
+      <td>30</td>
+      <td>HT</td>
+      <td>50</td>
+      <td>Virus</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Kokuwamon</td>
+      <td>Bl</td>
+      <td>20</td>
+      <td>BL</td>
+      <td>30</td>
+      <td>HT</td>
+      <td>30</td>
+      <td>Gelo</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Raremon</td>
+      <td>DS</td>
+      <td>50</td>
+      <td>DS</td>
+      <td>80</td>
+      <td>AT</td>
+      <td>30</td>
+      <td>Madeira</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Hackmon</td>
+      <td>EXP</td>
+      <td>20</td>
+      <td>EXP</td>
+      <td>30</td>
+      <td>EXP</td>
+      <td>50</td>
+      <td>Dados</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Leomon</td>
+      <td>HP</td>
+      <td>50</td>
+      <td>HP</td>
+      <td>100</td>
+      <td>HP</td>
+      <td>200</td>
+      <td>Gelo</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Floramon</td>
+      <td>DS</td>
+      <td>80</td>
+      <td>DS</td>
+      <td>120</td>
+      <td>AT</td>
+      <td>50</td>
+      <td>Madeira</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Meicoomon</td>
+      <td>DS</td>
+      <td>50</td>
+      <td>DS</td>
+      <td>80</td>
+      <td>AT</td>
+      <td>30</td>
+      <td>Desconhecido</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Starmons</td>
+      <td>EV</td>
+      <td>30</td>
+      <td>EV</td>
+      <td>70</td>
+      <td>CT</td>
+      <td>30</td>
+      <td>Trovão</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Sparrowmon</td>
+      <td>EV</td>
+      <td>30</td>
+      <td>Ev</td>
+      <td>70</td>
+      <td>CT</td>
+      <td>30</td>
+      <td>Trovão</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Gizamon</td>
+      <td>DS</td>
+      <td>80</td>
+      <td>DS</td>
+      <td>120</td>
+      <td>AT</td>
+      <td>50</td>
+      <td>Trovão</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Deadly Axemon</td>
+      <td>DE</td>
+      <td>30</td>
+      <td>DE</td>
+      <td>50</td>
+      <td>Ct</td>
+      <td>20</td>
+      <td>Trevas</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Skull Knight</td>
+      <td>EXP</td>
+      <td>20</td>
+      <td>EXP</td>
+      <td>30</td>
+      <td>EXP</td>
+      <td>50</td>
+      <td>Virus</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Bagramon</td>
+      <td>Bl</td>
+      <td>20</td>
+      <td>BL</td>
+      <td>30</td>
+      <td>HT</td>
+      <td>30</td>
+      <td>Skill DMG</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Gammamon</td>
+      <td>DS</td>
+      <td>50</td>
+      <td>DS</td>
+      <td>80</td>
+      <td>AT</td>
+      <td>30</td>
+      <td>Trovão</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Angoramon</td>
+      <td>DS</td>
+      <td>50</td>
+      <td>DS</td>
+      <td>80</td>
+      <td>AT</td>
+      <td>30</td>
+      <td>Vento</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Jellymon</td>
+      <td>DS</td>
+      <td>50</td>
+      <td>DS</td>
+      <td>80</td>
+      <td>AT</td>
+      <td>30</td>
+      <td>Vento</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Eosmon</td>
+      <td>CT</td>
+      <td>30</td>
+      <td>AT</td>
+      <td>100</td>
+      <td>Trovão</td>
+      <td> 1%</td>
+      <td>Desconhecido</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Agnimon</td>
+      <td>DE</td>
+      <td>30</td>
+      <td>DE</td>
+      <td>50</td>
+      <td>AT</td>
+      <td>20</td>
+      <td>Fogo</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Vritramon</td>
+      <td>EV</td>
+      <td>30</td>
+      <td>EV</td>
+      <td>70</td>
+      <td>At</td>
+      <td>20</td>
+      <td>Fogo</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Fairymon</td>
+      <td>BL</td>
+      <td>20</td>
+      <td>BL</td>
+      <td>50</td>
+      <td>AT</td>
+      <td>20</td>
+      <td>Vento</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Zephyrmon</td>
+      <td>DE</td>
+      <td>30</td>
+      <td>DE</td>
+      <td>50</td>
+      <td>DS</td>
+      <td>50</td>
+      <td>Vento</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Chakkumon</td>
+      <td>EV</td>
+      <td>30</td>
+      <td>EV</td>
+      <td>70</td>
+      <td>AT</td>
+      <td>20</td>
+      <td>Gelo</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Blizzzarmon</td>
+      <td>Bl</td>
+      <td>20</td>
+      <td>BL</td>
+      <td>50</td>
+      <td>DS</td>
+      <td>50</td>
+      <td>Gelo</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Arbormon</td>
+      <td>DE</td>
+      <td>30</td>
+      <td>DE</td>
+      <td>50</td>
+      <td>AT</td>
+      <td>20</td>
+      <td>Madeira</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Petaldramon</td>
+      <td>EV</td>
+      <td>30</td>
+      <td>EV</td>
+      <td>70</td>
+      <td>DS</td>
+      <td>50</td>
+      <td>Madeira</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Grotmon</td>
+      <td>BL</td>
+      <td>20</td>
+      <td>BL</td>
+      <td>50</td>
+      <td>DS</td>
+      <td>50</td>
+      <td>Terra</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Gigasmon</td>
+      <td>HP</td>
+      <td>50</td>
+      <td>HP</td>
+      <td>100</td>
+      <td>DS</td>
+      <td>50</td>
+      <td>Terra</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>KaiserGreymon</td>
+      <td>DS</td>
+      <td>50</td>
+      <td>DS</td>
+      <td>80</td>
+      <td>AT</td>
+      <td>30</td>
+      <td>Fogo</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Wolfmon</td>
+      <td>HP</td>
+      <td>50</td>
+      <td>HP</td>
+      <td>100</td>
+      <td>DS</td>
+      <td>50</td>
+      <td>Madeira</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Garmmon</td>
+      <td>DS</td>
+      <td>50</td>
+      <td>DS</td>
+      <td>80</td>
+      <td>CT</td>
+      <td>20</td>
+      <td>Madeira</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Blitzmon</td>
+      <td>HP</td>
+      <td>50</td>
+      <td>HP</td>
+      <td>100</td>
+      <td>EV</td>
+      <td>70</td>
+      <td>Trovão</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Bolgmon</td>
+      <td>DS</td>
+      <td>50</td>
+      <td>DS</td>
+      <td>80</td>
+      <td>EV</td>
+      <td>70</td>
+      <td>Trovão</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Lanamon</td>
+      <td>DE</td>
+      <td>30</td>
+      <td>DE</td>
+      <td>50</td>
+      <td>DS</td>
+      <td>50</td>
+      <td>Agua</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Calmaramon</td>
+      <td>EV</td>
+      <td>30</td>
+      <td>EV</td>
+      <td>70</td>
+      <td>CT</td>
+      <td>20</td>
+      <td>Agua</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Lowemon</td>
+      <td>BL</td>
+      <td>20</td>
+      <td>BL</td>
+      <td>50</td>
+      <td>CT</td>
+      <td>20</td>
+      <td>Terra</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Kaiserleomon</td>
+      <td>HP</td>
+      <td>50</td>
+      <td>HP</td>
+      <td>100</td>
+      <td>DS</td>
+      <td>50</td>
+      <td>CT</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>Mercuremon</td>
+      <td>DS</td>
+      <td>50</td>
+      <td>DS</td>
+      <td>80</td>
+      <td>Ct</td>
+      <td>20</td>
+      <td>Aço</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>Sefirotmon</td>
+      <td>HP</td>
+      <td>50</td>
+      <td>HP</td>
+      <td>100</td>
+      <td>DS</td>
+      <td>50</td>
+      <td>Aço</td>
+      <td> 1%</td>
+    </tr>
+    <tr>
+      <td>MagnaGarurumon</td>
+      <td>DS</td>
+      <td>50</td>
+      <td>DS</td>
+      <td>80</td>
+      <td>CT</td>
+      <td>30</td>
+      <td>Dados</td>
+      <td> 1%</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+
+<script>
+atributos = ''
+assinalados = ''
+if(localStorage.getItem('atributos') != null){
+  console.log('existe')
+  atributos = JSON.parse(localStorage.getItem('atributos'))
+  console.log(atributos)
+  assinalados = JSON.parse(localStorage.getItem('assinalados'))
+  
+}
+else{
+  console.log('criado')
+  atributos = {'AT':0,'DE':0,'DS':0,'CT':0,'EV':0,'BL':0,'HP':0,'HT':0,'EXP':0,'Desconhecido':0,'Vacina':0,'Virus':0,'Dados':0,'Fogo':0,'Trevas':0,'Gelo':0,'Vento':0,'Madeira':0,'Agua':0,'Aço':0,'Terra':0,'Luz':0,'Trovão':0,'Skill DMG':0}
+  localStorage.setItem('atributos', JSON.stringify(atributos));
+  assinalados = Array(141).fill(0);
+  localStorage.setItem('assinalados', JSON.stringify(assinalados));
+}
+//atributos = {'AT':0,'DE':0,'DS':0,'CT':0,'EV':0,'BL':0,'HP':0,'HT':0,'EXP':0,'Desconhecido':0,'Vacina':0,'Virus':0,'Dados':0,'Fogo':0,'Trevas':0,'Gelo':0,'Vento':0,'Madeira':0,'Agua':0,'Aço':0,'Terra':0,'Luz':0,'Trovão':0,'Skill DMG':0}
+//console.log(atributos)
+//atributos = {'AT':0,'DE':0,'DS':0,'CT':0,'EV':0,'BL':0,'HP':0,'HT':0,'EXP':0,'Desconhecido':0,'Vacina':0,'Virus':0,'Dados':0,'Fogo':0,'Trevas':0,'Gelo':0,'Vento':0,'Madeira':0,'Agua':0,'Aço':0,'Terra':0,'Luz':0,'Trovão':0,'Skill DMG':0}
+function updateValue(atributo,op,valor){
+  switch(atributo) {
+    case 'AT':
+        if(op == 'add')
+            atributos.AT = Number(atributos.AT) + Number(valor);
+        else
+            atributos.AT = Number(atributos.AT) - Number(valor);
+        break;
+    case 'DE':
+        if(op == 'add')
+            atributos.DE = Number(atributos.DE) + Number(valor);
+        else
+            atributos.DE = Number(atributos.DE) - Number(valor);
+        break;
+    case 'DS':
+        if(op == 'add')
+            atributos.DS = Number(atributos.DS) + Number(valor);
+        else
+            atributos.DS = Number(atributos.DS) - Number(valor);
+        break;
+    case 'CT':
+        if(op == 'add')
+            atributos.CT = Number(atributos.CT) + Number(valor);
+        else
+            atributos.CT = Number(atributos.CT) - Number(valor);
+        break;
+    case 'EV':
+        if(op == 'add')
+            atributos.EV = Number(atributos.EV) + Number(valor);
+        else
+            atributos.EV = Number(atributos.EV) - Number(valor);
+        break;
+    case 'BL':
+        if(op == 'add')
+            atributos.BL = Number(atributos.BL) + Number(valor);
+        else
+            atributos.BL = Number(atributos.BL) - Number(valor);
+        break;
+    case 'HP':
+        if(op == 'add')
+            atributos.HP = Number(atributos.HP) + Number(valor);
+        else
+            atributos.HP = Number(atributos.HP) - Number(valor);
+        break;
+    case 'HT':
+        if(op == 'add')
+            atributos.HT = Number(atributos.HT) + Number(valor);
+        else
+            atributos.HT = Number(atributos.HT) - Number(valor);
+        break;
+    case 'EXP':
+        if(op == 'add')
+            atributos.EXP = Number(atributos.EXP) + Number(valor);
+        else
+            atributos.EXP = Number(atributos.EXP) - Number(valor);
+        break;
+    case 'Desconhecido':
+        if(op == 'add')
+            atributos.Desconhecido = Number(atributos.Desconhecido) + Number(valor);
+        else
+            atributos.Desconhecido = Number(atributos.Desconhecido) - Number(valor);
+        break;
+    case 'Vacina':
+        if(op == 'add')
+            atributos.Vacina = Number(atributos.Vacina) + Number(valor);
+        else
+            atributos.Vacina = Number(atributos.Vacina) - Number(valor);
+        break;
+    case 'Virus':
+        if(op == 'add')
+            atributos.Virus = Number(atributos.Virus) + Number(valor);
+        else
+            atributos.Virus = Number(atributos.Virus) - Number(valor);
+        break;
+    case 'Dados':
+        if(op == 'add')
+            atributos.Dados = Number(atributos.Dados) + Number(valor);
+        else
+            atributos.Dados = Number(atributos.Dados) - Number(valor);
+        break;
+    case 'Fogo':
+        if(op == 'add')
+            atributos.Fogo = Number(atributos.Fogo) + Number(valor);
+        else
+            atributos.Fogo = Number(atributos.Fogo) - Number(valor);
+        break;
+    case 'Trevas':
+        if(op == 'add')
+            atributos.Trevas = Number(atributos.Trevas) + Number(valor);
+        else
+            atributos.Trevas = Number(atributos.Trevas) - Number(valor);
+        break;
+    case 'Gelo':
+        if(op == 'add')
+            atributos.Gelo = Number(atributos.Gelo) + Number(valor);
+        else
+            atributos.Gelo = Number(atributos.Gelo) - Number(valor);
+        break;
+    case 'Vento':
+        if(op == 'add')
+            atributos.Vento = Number(atributos.Vento) + Number(valor);
+        else
+            atributos.Vento = Number(atributos.Vento) - Number(valor);
+        break;
+    case 'Madeira':
+        if(op == 'add')
+            atributos.Madeira = Number(atributos.Madeira) + Number(valor);
+        else
+            atributos.Madeira = Number(atributos.Madeira) - Number(valor);
+        break;
+    case 'Agua':
+        if(op == 'add')
+            atributos.Agua = Number(atributos.Agua) + Number(valor);
+        else
+            atributos.Agua = Number(atributos.Agua) - Number(valor);
+        break;
+    case 'Aço':
+        if(op == 'add')
+            atributos.Aço = Number(atributos.Aço) + Number(valor);
+        else
+            atributos.Aço = Number(atributos.Aço) - Number(valor);
+        break;
+    case 'Terra':
+        if(op == 'add')
+            atributos.Terra = Number(atributos.Terra) + Number(valor);
+        else
+            atributos.Terra = Number(atributos.Terra) - Number(valor);
+        break;
+    case 'Luz':
+        if(op == 'add')
+            atributos.Luz = Number(atributos.Luz) + Number(valor);
+        else
+            atributos.Luz = Number(atributos.Luz) - Number(valor);
+        break;
+    case 'Trovão':
+        if(op == 'add')
+            atributos.Trovão = Number(atributos.Trovão) + Number(valor);
+        else
+            atributos.Trovão = Number(atributos.Trovão) - Number(valor);
+        break;
+    case 'Skill DMG':
+        if(op == 'add')
+            atributos['Skill DMG'] = Number(atributos['Skill DMG']) + Number(valor);
+        else
+            atributos['Skill DMG'] = Number(atributos['Skill DMG']) - Number(valor);
+        break;
+    default:
+      // code block
+  }
+}
+
+//assinalados = Array(141).fill(0);
+
+
+function updateUnionAttributes(values, operation) {
+  if(operation == 'add'){
+    assinalados[Number(values[2])-1] = 1;
+    //console.log(values)
+    console.log(values[0][0])
+    updateValue(values[0][0],operation,values[1][0])
+    updateValue(values[0][1],operation,values[1][1])
+    updateValue(values[0][2],operation,values[1][2].replace(/%[^ ]*/g, ""))
+    updateValue(values[0][3],operation,values[1][3].replace(/%[^ ]*/g, ""))
+    //console.log(atributos)
+  }
+  else{
+    assinalados[Number(values[2])-1] = 0;
+    
+    updateValue(values[0][0],operation,values[1][0])
+    updateValue(values[0][1],operation,values[1][1])
+    updateValue(values[0][2],operation,values[1][2].replace(/%[^ ]*/g, ""))
+    updateValue(values[0][3],operation,values[1][3].replace(/%[^ ]*/g, ""))
+    
+    //updateValue(values[0][0],operation,values[0][1])
+    //console.log(atributos)
+  }
+  localStorage.setItem('atributos', JSON.stringify(atributos));
+  localStorage.setItem('assinalados', JSON.stringify(assinalados));
+  preencherTabela()
+  //console.log(teste1)
+}
+
+function updateRow(checkbox) {
+  const row = checkbox.parentElement.parentElement;
+  rows = row.getElementsByTagName("td")
+  nomes = [rows[2].innerHTML,rows[4].innerHTML,rows[6].innerHTML,rows[8].innerHTML]
+  valores = [rows[3].innerHTML,rows[5].innerHTML,rows[7].innerHTML,rows[9].innerHTML]
+  values = [nomes,valores,Number(checkbox.id)]
+  if (checkbox.checked) {
+    row.style.backgroundColor = "lightgreen";
+    console.log(Number(checkbox.id))
+    
+    //values = [rows[2].innerHTML,rows[3].innerHTML,rows[4].innerHTML,rows[5].innerHTML,rows[6].innerHTML,rows[7].innerHTML,rows[8].innerHTML,rows[9].innerHTML,Number(checkbox.id)]
+    console.log(values)
+    updateUnionAttributes(values, 'add')
+  } else {
+    row.style.backgroundColor = "";
+    //alterações permanentes
+    updateUnionAttributes(values, 'rem')
+  }
+  
+}
+    function addCheckboxes() {
+        // Acessa a tabela existente
+        var table = document.getElementById("tabela").getElementsByTagName('tbody')[0];
+        
+        // Itera sobre cada linha da tabela
+        var rows = table.rows;
+        for (var i = 1; i < rows.length; i++) {
+            var cell = rows[i].insertCell(0);  // Adiciona uma nova célula no final da linha
+
+            var checkbox = document.createElement("input"); // Cria a checkbox
+            checkbox.type = "checkbox";  // Define o tipo como checkbox
+            checkbox.setAttribute("id",i)
+            checkbox.setAttribute("onchange","updateRow(this)")
+            
+            cell.appendChild(checkbox);  // Adiciona a checkbox à célula
+            if(assinalados[i-1] == 1){
+              checkbox.checked = true;
+              row = checkbox.parentElement.parentElement;
+              row.style.backgroundColor = "lightgreen";
+
+            }
+        }
+    }
+    function changeBoxColor(checkbox){
+      row = checkbox.parentElement.parentElement;
+      row.style.backgroundColor = "lightgreen";
+    }
+    function updateShow(){
+        atributos.AT
+    }
+    function preencherTabela() {
+            var tableRow = document.getElementById("atributos-row"); // Linha onde os valores serão colocados
+            tableRow.innerHTML = ''
+            let valores = Object.values(atributos); // Pega os valores do objeto 'atributos'
+
+            // Preenche as células da tabela com os valores do objeto 'atributos'
+            valores.forEach(valor => {
+                const td = document.createElement("td"); // Cria uma célula
+                td.textContent = valor; // Define o texto da célula como o valor
+                tableRow.appendChild(td); // Adiciona a célula à linha da tabela
+            });
+    }
+    preencherTabela()
+    addCheckboxes()
+    
+</script>
+</body>
